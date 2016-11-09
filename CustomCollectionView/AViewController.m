@@ -43,12 +43,12 @@
 }
 -(void)initializeCollect{
     //创建一个layout布局类
-//    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
-        Mylayout * layout = [[Mylayout alloc]init];
+    UICollectionViewFlowLayout *layout = [[UICollectionViewFlowLayout alloc] init];
+//        Mylayout * layout = [[Mylayout alloc]init];
     
     //设置布局方向为垂直流布局
-    //        layout.scrollDirection = UICollectionViewScrollDirectionVertical;
-    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
+            layout.scrollDirection = UICollectionViewScrollDirectionVertical;
+//    layout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     //设置每隔item的大小为100*100
     layout.itemSize = CGSizeMake(50, 50);
     //通过一个布局策略layout，创建collectionview
